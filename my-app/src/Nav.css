@@ -1,0 +1,44 @@
+.navigation{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+
+    padding:18px;
+
+    background:#771177;
+
+}
+
+.navigation a{
+
+    color:#d1d5db;
+    text-decoration:none;
+
+    padding:14px 25px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.navigation a:hover{
+
+    background:#6ea6ff;
+
+    color:white;
+
+}
+
+.navigation .active{
+
+    background:#7c3aed;
+
+    color:white;
+
+    box-shadow:0 5px 15px rgba(124,58,237,.4);
+
+}

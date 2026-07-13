@@ -1,0 +1,56 @@
+.header{
+    background:#000000;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    border-bottom:1px solid #2b3648;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#7c3aed;
+}
+
+.title h2{
+    margin:0;
+    font-size:26px;
+}
+
+.title p{
+    margin:3px 0 0;
+    color:#9ca3af;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.profile img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+}
+
+.profile h5{
+    margin:0;
+}
+
+.profile span{
+    color:#9ca3af;
+    font-size:13px;
+}
+
+.notification{
+    background:#1f2937;
+    color:white;
+    border:none;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    cursor:pointer;
+}
